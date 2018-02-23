@@ -1,6 +1,13 @@
 # vue-webpack-docker
 
-> Template based upon https://github.com/vuejs-templates/webpack to enable hot-relading in docker container
+> Template based upon https://github.com/vuejs-templates/webpack to enable hot-relading in docker container.
+
+## Dockerify steps
+
+* Set "poll" to true in ./config/index.js 
+* Added "docker-compose.yml" file:
+    * Need to set environment variable HOST=0.0.0.0
+    * Internal and external ports need to be the same
 
 ## Build Setup
 
